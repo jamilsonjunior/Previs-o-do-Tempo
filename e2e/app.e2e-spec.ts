@@ -1,10 +1,10 @@
-import { PrevisaoDoTempoPage } from './app.po';
+import { AppPage } from './app.po';
 
 describe('previsao-do-tempo App', () => {
-  let page: PrevisaoDoTempoPage;
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new PrevisaoDoTempoPage();
+    page = new AppPage();
   });
 
   it('should display welcome message', () => {
